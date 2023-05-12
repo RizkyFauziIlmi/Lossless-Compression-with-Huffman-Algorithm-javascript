@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <title>Lossless Compression with Huffman Algorithm</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <h1>Lossless Compression with Huffman Algorithm</h1>
+      <div class="container">
+        <div class="input-area-container">
+          <div class="input-container">
+            <p>Enter input string</p>
+            <textarea id="input" placeholder="Enter string here..."></textarea>
+          </div>
+          <div class="input-container">
+            <p>Compressed string</p>
+            <textarea id="compressed" readonly disabled></textarea>
+          </div>
+          <div class="input-container">
+            <p>Decompressed string</p>
+            <textarea id="decompressed" readonly disabled></textarea>
+          </div>
+        </div>
+        <div class="button-container">
+          <button id="compress-button">Compress</button>
+          <button id="decompress-button">Decompress</button>
+          <button id="clear-button">Clear</button>
+        </div>
+      </div>
+      <p class="copyright-text">© 1996 Rizky Fauzi Ilmi</p>
+    </div>
+    <script src="huffman.js"></script>
+    <script src="logic.js"></script>
+  </body>
+</html>
